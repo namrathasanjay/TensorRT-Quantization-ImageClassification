@@ -1,0 +1,24 @@
+# Model artifacts (large, regenerate from the notebooks)
+*.onnx
+*.trt
+*.engine
+*.pth
+*.pt
+*_ckpt
+calib_cache/
+*.cache
+
+# Data
+data/
+imagenette2-320/
+miniimagenet/
+
+# Notebook / Python noise
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
