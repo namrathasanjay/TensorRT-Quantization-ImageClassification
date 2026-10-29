@@ -1,0 +1,13 @@
+# Tested on Kaggle GPU image (Tesla T4, CUDA 11.x, Python 3.7)
+# TensorRT itself is installed from NVIDIA's index / apt (see the setup cell in each notebook).
+torch>=1.11
+torchvision>=0.12
+onnx
+onnxruntime
+onnxsim
+pycuda
+numpy
+matplotlib
+tqdm
+tensorboard
+# pip install --index-url https://pypi.nvidia.com pytorch-quantization
